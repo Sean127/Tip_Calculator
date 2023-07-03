@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;    
+    background-color: linear-gradient(red, yellow);
+
+}
+
+.align-center{
+    text-align: center;
+}
