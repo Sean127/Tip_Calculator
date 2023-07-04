@@ -12,37 +12,29 @@
         <div class="bill">
             <p>Please enter Your total bill amount here.</p>
             <label for="bill_amount">€</label>
-            <input type="number" id="bill_amount">
+            <input type="text" id="bill_amount">
         </div>
         <div class="tip">
             <p>How much would you like to tip?</p>
             <label for="five">5%</label>
-            <input type="radio" name="tip_amount" id="five"><br>
+            <input type="radio" name="tip_amount" id="five" value="five"><br>
             <label for="ten">10%</label>
-            <input type="radio" name="tip_amount" id="ten"><br>
+            <input type="radio" name="tip_amount" id="ten" value="ten"><br>
             <label for="fifteen">15%</label>
-            <input type="radio" name="tip_amount" id="fifteen"><br>
+            <input type="radio" name="tip_amount" id="fifteen" value="fifteen"><br>
             <label for="twenty">20%</label>
-            <input type="radio" name="tip_amount" id="twenty"><br>
-        </div>
-        <div class="sharing">
-            <p>Are multiple people tipping.</p>
-            <p>Would you like to find out how much you each can tip?</p>
-            <select name="multiple" id="multiple">
-                <option value="yes">Yes</option>
-                <option value="no">No</option>
-            </select>
+            <input type="radio" name="tip_amount" id="twenty" value="twenty"><br>
         </div>
         <div class="multi-tip">
             <p>How many people are tipping?</p>
-            <input type="number" name="people-tipping" id="people-tipping">
+            <input type="text" name="people-tipping" id="people-tipping">
             <label for="people-tipping">people</label>
         </div>
         <button type="button" class="calculate">Find Tip</button>
         <div class="total">
             <p>The total tip amount is</p>
-            <p class="total-amount"></p>
-            <p class="per-person"></p>
+            <h1 class="total_amount"></h1>
+            <p class="per_person"></p>
         </div>
     </div>
     <script src="assets/js/script.js"></script>
