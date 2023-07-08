@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Tip Calculator</title>
 </head>
 <body>
-    <div class="main-area">
-        <h1 class="align-center">Tip Calculator</h1>
+    <h1 class="header align-center">Tip Calculator</h1>
+    <div class="main-area align-center container">
         <div class="bill">
             <p>Please enter Your total bill amount here.</p>
             <label for="bill_amount">€</label>
@@ -32,7 +33,7 @@
         </div>
         <button type="button" class="calculate">Find Tip</button>
         <div class="total">
-            <p>The total tip amount is</p>
+            <p id="tip_total"></p>
             <h1 id="total_amount"></h1>
             <p id="per_person"></p>
         </div>
