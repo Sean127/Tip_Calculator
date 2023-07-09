@@ -42,6 +42,6 @@ function calculateTip(total_tip) {
         }
 
     } else {
-        alert("Enter an amount of people")
+        alert("Enter a valid bill amount")
     }
 }
